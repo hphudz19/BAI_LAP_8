@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khoa CNTT - Đại Học Đại Nam 2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    /* Hiệu ứng lơ lửng cho các hình khối 3D */
+    .floating-effect {
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-[#040a18] via-[#091530] to-[#040a18] text-slate-100 font-sans min-h-screen flex items-center justify-center p-4 sm:p-8">
+
+  <div class="w-full max-w-6xl bg-[#09142c]/80 backdrop-blur-md border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+    
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <header class="text-center mb-10 relative z-10">
+      <div class="inline-block px-4 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-xs font-bold text-cyan-400 uppercase tracking-widest mb-3">
+        ⚡ Tuyển sinh thế hệ số 2026
+      </div>
+      <h1 class="text-3xl md:text-5xl font-black tracking-tight uppercase bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+        Đào Tạo Chuyên Ngành <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">2026</span>
+      </h1>
+      <p class="text-xs md:text-sm font-semibold tracking-wider text-slate-400 uppercase mt-2">
+        Khoa Công nghệ Thông tin - Trường Đại học Đại Nam
+      </p>
+    </header>
+
+    <main class="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8 relative z-10">
+      
+      <section class="lg:col-span-3 bg-gradient-to-b from-[#112246] to-[#0d1a36] rounded-2xl p-6 border border-slate-800/80 hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between group">
+        
+        <div class="flex items-center justify-between mb-6">
+          <div class="flex items-center gap-2 bg-red-500/10 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold text-red-400 uppercase">
+            <span>💻</span> 1. Công nghệ thông tin
+          </div>
+          <span class="text-[10px] font-mono text-slate-500 group-hover:text-cyan-400 transition-colors">// CHUYÊN NGÀNH MŨI NHỌN</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+          <div class="sm:col-span-5 rounded-xl overflow-hidden shadow-2xl border border-slate-700/50 aspect-[4/5]">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=80" alt="Sinh viên công nghệ" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          
+          <div class="sm:col-span-7 space-y-3">
+            <div class="p-3.5 bg-[#070f22]/60 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors flex items-center justify-between">
+              <span class="text-sm font-semibold text-slate-300">Hệ thống nhúng</span>
+              <span class="w-2 h-2 rounded-full bg-cyan-400 shadow-md shadow-cyan-400"></span>
+            </div>
+            <div class="p-3.5 bg-[#070f22]/60 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors flex items-center justify-between">
+              <span class="text-sm font-semibold text-slate-300">Phát triển phần mềm</span>
+              <span class="w-2 h-2 rounded-full bg-blue-400 shadow-md shadow-blue-400"></span>
+            </div>
+            <div class="p-3.5 bg-[#070f22]/60 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors flex items-center justify-between">
+              <span class="text-sm font-semibold text-slate-300">Robot và Trí tuệ nhân tạo</span>
+              <span class="w-2 h-2 rounded-full bg-purple-400 shadow-md shadow-purple-400"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="lg:col-span-2 flex flex-col gap-6">
+        
+        <section class="bg-gradient-to-b from-[#112246] to-[#0d1a36] rounded-2xl p-5 border border-slate-800/80 hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between min-h-[175px] group">
+          <div class="flex items-center gap-2 bg-red-500/10 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold text-red-400 uppercase w-fit">
+            <span>☁️</span> 2. Hệ thống thông tin
+          </div>
+          <div class="flex justify-around items-center py-1 bg-[#070f22]/40 rounded-xl border border-slate-800/50">
+            <img src="https://img.icons8.com/isometric/100/cloud-storage.png" alt="Cloud" class="w-14 h-14 object-contain floating-effect">
+            <img src="https://img.icons8.com/isometric/100/server.png" alt="Server" class="w-14 h-14 object-contain floating-effect [animation-delay:1s]">
+            <img src="https://img.icons8.com/isometric/100/database.png" alt="Database" class="w-14 h-14 object-contain floating-effect [animation-delay:2s]">
+          </div>
+        </section>
+
+        <section class="bg-gradient-to-b from-[#112246] to-[#0d1a36] rounded-2xl p-5 border border-slate-800/80 hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between min-h-[175px] group">
+          <div class="flex items-center gap-2 bg-red-500/10 border border-red-500/20 px-3 py-1.5 rounded-lg text-xs font-bold text-red-400 uppercase w-fit">
+            <span>🎯</span> 3. Khoa học máy tính
+          </div>
+          <div class="grid grid-cols-2 gap-3 pt-1">
+            <div class="flex flex-col items-center gap-1 bg-[#070f22]/40 p-2.5 rounded-xl border border-slate-800/50 hover:bg-[#070f22]/80 transition-colors">
+              <img src="https://img.icons8.com/isometric/100/bar-chart.png" alt="Data Science" class="w-10 h-10 object-contain floating-effect">
+              <span class="text-[11px] font-bold text-slate-400 mt-1">Khoa học dữ liệu</span>
+            </div>
+            <div class="flex flex-col items-center gap-1 bg-[#070f22]/40 p-2.5 rounded-xl border border-slate-800/50 hover:bg-[#070f22]/80 transition-colors">
+              <img src="https://img.icons8.com/isometric/100/ai.png" alt="AI" class="w-10 h-10 object-contain floating-effect [animation-delay:1.5s]">
+              <span class="text-[11px] font-bold text-slate-400 mt-1">Trí tuệ nhân tạo</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <nav class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+      <div class="bg-[#112246]/40 border border-slate-800/80 hover:border-blue-500/40 hover:bg-[#112246]/80 transition rounded-xl p-4 flex items-center justify-center gap-3 text-xs font-extrabold uppercase tracking-widest text-center cursor-pointer text-slate-300">
+        <img src="https://img.icons8.com/isometric/50/graduation-cap.png" alt="🎓" class="w-5 h-5 object-contain">
+        Chương trình thực tiễn
+      </div>
+      <div class="bg-[#112246]/40 border border-slate-800/80 hover:border-blue-500/40 hover:bg-[#112246]/80 transition rounded-xl p-4 flex items-center justify-center gap-3 text-xs font-extrabold uppercase tracking-widest text-center cursor-pointer text-slate-300">
+        <img src="https://img.icons8.com/isometric/50/handshake.png" alt="🤝" class="w-5 h-5 object-contain">
+        Cơ hội thực tập rộng mở
+      </div>
+      <div class="bg-[#112246]/40 border border-slate-800/80 hover:border-blue-500/40 hover:bg-[#112246]/80 transition rounded-xl p-4 flex items-center justify-center gap-3 text-xs font-extrabold uppercase tracking-widest text-center cursor-pointer text-slate-300">
+        <img src="https://img.icons8.com/isometric/50/earth-element.png" alt="🌐" class="w-5 h-5 object-contain">
+        Hệ sinh thái công nghệ
+      </div>
+    </nav>
+
+    <footer class="bg-[#050b18] rounded-2xl p-6 border border-slate-900 text-xs text-slate-400">
+      <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-6 border-b border-slate-900 pb-6 mb-4">
+        
+        <div class="text-center md:text-left">
+          <div class="font-black text-2xl text-red-500 tracking-tighter uppercase mb-1">ĐẠI NAM</div>
+          <div class="text-[9px] tracking-widest text-slate-500 uppercase font-black mb-2">UNIVERSITY</div>
+          <a href="https://www.dainam.edu.vn" target="_blank" class="inline-flex items-center gap-1.5 text-cyan-400 hover:underline font-medium">
+            <img src="https://img.icons8.com/isometric/50/web.png" alt="🌐" class="w-4 h-4 object-contain"> www.dainam.edu.vn
+          </a>
+        </div>
+        
+        <div class="text-center max-w-sm mx-auto leading-relaxed">
+          <p class="font-semibold text-slate-300 mb-1">📍 Địa điểm tiếp nhận:</p>
+          Văn phòng Khoa CNTT, Phòng 306, Tòa nhà Control Building. Trường Đại học Đại Nam.
+        </div>
+        
+        <div class="bg-[#0d1a36] border border-slate-800 px-5 py-3 rounded-xl flex items-center gap-4 shadow-inner w-fit mx-auto md:mr-0">
+          <img src="https://img.icons8.com/isometric/50/phone-office.png" alt="📞" class="w-6 h-6 object-contain">
+          <div>
+            <span class="text-[10px] block text-slate-500 uppercase font-bold">Tổng đài tư vấn:</span>
+            <span class="font-mono font-extrabold text-amber-400 text-base">0981 595 599</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center font-bold tracking-widest uppercase text-slate-600 text-[10px]">
+        Khơi dậy tiềm năng <span class="text-slate-800 mx-1">//</span> Vươn tới thành công
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
